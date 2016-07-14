@@ -1,0 +1,83 @@
+
+.square {
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	margin: 0 0 0 0;
+}
+
+#dat-board{
+	margin: 0px auto 0 auto;
+	width: 65%;
+}
+
+.row {
+	margin: -4px 0 0 0;
+}
+
+.odd {
+	background-color: black;
+}
+
+.even {
+	background-color: navajowhite;
+}
+
+.black-checker {
+	height: 60px;
+	width: 60px;
+	content:url(http://www.thelibertyeagle.com/wp-content/uploads/2016/02/The-Liberty-Eagle.png);
+	z-index: +1;
+
+}
+
+.black-checker-clicked {
+	opacity: .5;
+}
+
+.red-checker-clicked {
+    opacity: .5;
+}
+
+.red-checker {
+	position: relative;
+	height: 60px;
+	width: 60px;
+	content:url(http://img.freeflagicons.com/thumb/round_icon/ussr/ussr_640.png);
+	z-index: +1;
+}
+
+.highlight {
+	background-color: purple;
+
+}
+
+.red-checker-king{
+	height: 60px;
+	width: 60px;
+	content:url(http://i.imgur.com/VdwU3aV.png);
+	z-index: +1;
+}
+
+.black-checker-king{
+	height: 60px;
+	width: 60px;
+	content:url(https://pixabay.com/static/uploads/photo/2012/04/24/17/52/star-40658_960_720.png);
+	z-index: +1;
+
+}
+
+#turn-btn{
+	font-size: 20px;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 20px 5px 20px;
+	font: sans-serif;
+	background-color: navajowhite;
+	border-radius: 20px;
+	outline-color: black;
+	outline-width: 2px;
+	margin: 0px auto 0px auto;
+	width: 45%;
+	text-align: center;
+	display: block;
+}
